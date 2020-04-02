@@ -1,0 +1,6 @@
+.experienceCard {
+    width: 800px;
+    flex: display;
+    border-style: solid;
+    border-color: black;
+}
