@@ -3,7 +3,7 @@ import '../assets/css/Style.css';
 
 export default function Footer() {
     return (
-        <div className="section">
+        <div className="section" id="contact">
             <div className="footer">
                 <h1 className="sectionHeader">Contact me</h1>
                 <li><i class="far fa-envelope">: jimmy1999.huang@gmail.com</i></li>

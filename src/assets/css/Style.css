@@ -2,8 +2,6 @@
 
 html, 
 body {
-    width: 100%;
-    height: 100%;
     margin: 0px;
     background-color: #FEFCFB;
     font-family: 'Montserrat', sans-serif;
@@ -13,41 +11,64 @@ body {
     text-align: center;
     margin: 0;
     padding: 1em;
+
 }
 
 .section {
-    margin-bottom: 1em;
+    margin-bottom: 0em;
 }
 
+
+
+
 /* Header */
-.header{
+.header{    
     display: flex;
     justify-content: space-between;
-    padding-left: 2em;
-    padding-right: 2em;
     z-index: 1;
     background-color: #1282A2;
     color: #FEFCFB;
-    padding: 1em;
+    padding-top: 1em;
     padding-bottom: 0.5em;
 }
 
-
 .brand {
     display: flex;
-    padding-left: 1em;
-    padding-right: 1em;
+    margin-left: 3em;
+    margin-right: .75em;
 }
 
 .logo {
     width: 50px;
     height: 50px;
-    padding-right: 3em;
+    margin-right: 3em;
 }
 
+.headerList {
+    display: flex;    
+    margin-right: 2em;
+}
+.headerLink {
+    display: flex; 
+    padding: .5em;
+    margin: 1em;
+}
+
+a {
+    color: #FEFCFB;
+    text-decoration: none;
+    font-size: large;
+}
+a:hover {
+    color: #1d2d50;
+}
+
+
+
+
 /* Introduction */
-.intro {
-    height: 400px;
+#intro {
+    height: 500px;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -56,13 +77,15 @@ body {
 
 .introText {
     margin: 0px;
-    color: Black;
+    color: #1d2d50;
+    padding: 2em;
 }
 
 .attentionGrabber {
     font-size: 3em;
     margin: 12px;
     text-align: center;
+    color: black;
 }
 
 .myName {
@@ -71,14 +94,28 @@ body {
     text-align: center;
 }
 
-/* Experience */
 
-.experience {
+
+
+/* About */
+#about {
+    background-color: #1d2d50;
+    color: #FEFCFB;
+    padding: 2em;
+}
+
+
+
+
+/* Experience */
+#experience {
     text-align: center;
 }
 
-/* Experience Cards */
 
+
+
+/* Experience Cards */
 .experienceCard {
     width: 800px;
     flex: display;
@@ -86,10 +123,16 @@ body {
     border-color: black;
 }
 
-/* About */
 
-.about {
-    background-color: #e3e3e3;
-}
+
 
 /* Footer */
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .headerList {
+      display: none;
+    }
+  }
