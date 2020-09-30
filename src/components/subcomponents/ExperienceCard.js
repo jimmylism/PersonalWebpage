@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/ExperienceCard.css';
+import '../../assets/css/Style.css';
 
 export default function ExperienceCard() {
     return (

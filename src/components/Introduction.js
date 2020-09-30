@@ -1,13 +1,13 @@
 import React from 'react';
-import '../assets/css/Introduction.css';
+import '../assets/css/Style.css';
 
 export default function Introduction() {
     return (
-        <div className="section">
+        <div className="section" id="intro">
             <div className="intro">
                 <div className="introText">
-                    <h2 className="attentionGrabber">Hello world!</h2>
-                    <h1 className="myName">I'm Jimmy Huang</h1>
+                    <h1 className="attentionGrabber">Jimmy Huang</h1>
+                    <p className="myName">Software engineer looking to make an impact.</p>
                 </div>
             </div>
         </div>

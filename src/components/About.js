@@ -1,12 +1,10 @@
 import React from 'react';
-import '../assets/css/About.css';
+import '../assets/css/Style.css';
 
 export default function About() {
     return (
         <div className="section">
-            <div className="about">
-                <h1 className="sectionHeader">About me</h1>
-            </div>
+            <h1 className="sectionHeader">About me</h1>
         </div>
     )
 }
