@@ -15,7 +15,7 @@ body {
 
 .section {
     margin-bottom: 0em;
-    padding: 2em;
+    padding: 1em;
 }
 
 
@@ -26,9 +26,10 @@ body {
     display: flex;
     justify-content: space-between;
     z-index: 1;
-    background-color: #1282A2;
-    color: #FEFCFB;
-    padding-top: 1em;
+    /* background-color: #1282A2; */
+    background-color: #FEFCFB;
+    color: #1d2d50;
+    padding-top: 1.5em;
     padding-bottom: 0.5em;
 }
 
@@ -55,12 +56,13 @@ body {
 }
 
 a {
-    color: #FEFCFB;
+    color: #1d2d50;
     text-decoration: none;
     font-size: large;
 }
 a:hover {
-    color: #1d2d50;
+    /* color: #1d2d50; */
+    color: #1282A2;
 }
 
 
@@ -68,8 +70,8 @@ a:hover {
 
 /* Introduction */
 #intro {
-    height: 450px;
-    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 150px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -78,7 +80,7 @@ a:hover {
 .introText {
     margin: 0px;
     color: #1d2d50;
-    padding: 2em;
+    padding: 0  em;
 }
 
 .attentionGrabber {
@@ -109,14 +111,9 @@ a:hover {
 }
 
 .aboutText {
-    background-color: #0f4c75;
+    /* background-color: #0f4c75; */
     padding: 3em;
 }
-
-.aboutMe {
-
-}
-
 
 
 /* Experience */
@@ -129,7 +126,6 @@ a:hover {
 
 /* Experience Cards */
 .experienceCard {
-    width: 600px;
     flex: display;
     border-style: solid;
     border-color: black;
@@ -155,4 +151,28 @@ a:hover {
     .headerList {
       display: none;
     }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-right: 1.5em;
+    }
+
+    .attentionGrabber {
+        font-size: 2em;
+        margin: 12px;
+        text-align: center;
+        color: black;
+    }
+    
+    .myName {
+        font-size: 1.5em;
+    }
+
+    #intro {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    
   }
