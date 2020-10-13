@@ -9,13 +9,13 @@ body {
 
 .sectionHeader {
     text-align: center;
-    margin: 0;
     padding: 1em;
-
+    margin-bottom: 1em;
 }
 
 .section {
     margin-bottom: 0em;
+    padding: 2em;
 }
 
 
@@ -68,7 +68,7 @@ a:hover {
 
 /* Introduction */
 #intro {
-    height: 500px;
+    height: 450px;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -101,9 +101,21 @@ a:hover {
 #about {
     background-color: #1d2d50;
     color: #FEFCFB;
-    padding: 2em;
 }
 
+.aboutBody {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutText {
+    background-color: #0f4c75;
+    padding: 3em;
+}
+
+.aboutMe {
+
+}
 
 
 
@@ -117,21 +129,29 @@ a:hover {
 
 /* Experience Cards */
 .experienceCard {
-    width: 800px;
+    width: 600px;
     flex: display;
     border-style: solid;
     border-color: black;
 }
 
+.experienceContainer {
+    
+}
 
 
 
 /* Footer */
+#contact {
+    background-color: #1d2d50;
+    color: #FEFCFB;
+    padding: 2em;
+}
 
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
     .headerList {
       display: none;
     }
