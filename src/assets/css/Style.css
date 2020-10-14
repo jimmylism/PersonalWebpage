@@ -9,7 +9,7 @@ body {
 
 .sectionHeader {
     text-align: center;
-    padding: 1em;
+    padding: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -70,8 +70,8 @@ a:hover {
 
 /* Introduction */
 #intro {
-    padding-top: 100px;
-    padding-bottom: 150px;
+    padding-top: 12rem;
+    padding-bottom: 16rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -167,12 +167,18 @@ a:hover {
 
     .myName {
         font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     #intro {
         padding-top: 50px;
         padding-bottom: 100px;
     }
+  }
 
-
+  @media only screen and (max-width: 850px) {
+    .brand h2 {
+        display: none;
+    }
   }
