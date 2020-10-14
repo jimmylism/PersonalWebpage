@@ -172,12 +172,12 @@ a:hover {
     }
 
     #intro {
-        padding-top: 50px;
-        padding-bottom: 100px;
+        padding-top: 8rem;
+        padding-bottom: 12rem;
     }
   }
 
-  @media only screen and (max-width: 850px) {
+  @media only screen and (max-width: 550px) {
     .brand h2 {
         display: none;
     }
