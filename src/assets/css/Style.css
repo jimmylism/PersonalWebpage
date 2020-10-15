@@ -127,8 +127,16 @@ a:hover {
 /* Experience Cards */
 .experienceCard {
     flex: display;
-    border-style: solid;
-    border-color: black;
+}
+
+.experienceCard h2 {
+    color: #1282A2;
+    margin-bottom: 0.5rem;
+}
+
+.experienceCard p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .experienceContainer {
@@ -178,7 +186,16 @@ a:hover {
   }
 
   @media only screen and (max-width: 550px) {
+    .brand {
+        margin-left: 1rem;
+    }
+    
     .brand h2 {
         display: none;
+    }
+
+    #intro {
+        padding-top: 6rem;
+        padding-bottom: 8rem;
     }
   }

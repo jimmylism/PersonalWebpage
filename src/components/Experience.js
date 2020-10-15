@@ -6,21 +6,56 @@ export default function Experience() {
     const workData = [
         {
             name: "Northwestern Mutual",
-            title: "Software Engineer",
-            description: "I do some stuff software stuff"
+            title: "Software engineer",
+            time: "Aug 2020 - Present",
+            description: "I do some software stuff"
         },
         {
             name: "MD Logistics",
-            title: "Business Intelligence Developer Intern",
-            description: "I do some stuff BI stuff"
+            title: "BI developer intern",
+            time: "Jun 2020 - Aug 2020",
+            description: "I do some BI stuff"            
+        },
+        {
+            name: "Bastian Solutions",
+            title: "Software developer intern",
+            time: "Jun 2019 - Aug 2019",
+            description: "I do some software stuff"            
+        },
+    ]
+
+    const leadershipData = [
+        {
+            name: "Indiana University Student Government",
+            title: "Program Manager",
+            time: "Aug 2020 - Present",
+            description: "I do some PM stuff"
+        },
+        {
+            name: "Indiana University",
+            title: "Research Assistant",
+            time: "Sep 2019 - Dec 2019",
+            description: "I do some research stuff"            
+        },
+        {
+            name: "Asian American Association @ Indiana University",
+            title: "Marketing director",
+            time: "Feb 2019 - May 2020",
+            description: "I do some marketing stuff"            
         },
     ]
 
     return (
         <div className="section" id="experience">
-            <h1 className="sectionHeader">Here's my experiences so far</h1>
+            <h1 className="sectionHeader">Here's what I've been up to</h1>
             <div className="experienceContainer">
-                <ExperienceCard name="Northwestern Mutual" title="Software Engineer" description="i do some stuff"/>
+                {workData.map((data, key) => {return (
+                    <ExperienceCard key={key} name={data.name} title={data.title} time={data.time} description={data.description} />)})}
+            </div>
+            <h1 className="sectionHeader">Some of my leadership & volunteer experience</h1>
+            <div className="leadershipContainer">
+                {leadershipData.map((data, key) => {return (
+                    <ExperienceCard key={key} name={data.name} title={data.title} time={data.time} description={data.description} />)})}
             </div>
         </div>
     )

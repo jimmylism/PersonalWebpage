@@ -4,10 +4,9 @@ import '../../assets/css/Style.css';
 export default function ExperienceCard(props) {
     return (
         <div className="experienceCard">
-            <div className="experiencePicture"><p>Picture placeholder</p></div>
             <div className="experienceDescription">
-                <p>{props.name}</p>
-                <p>{props.title}</p>
+                <h2>{props.name}</h2>
+                <p>{props.title} | {props.time} </p>
                 <p>{props.description}</p>
             </div>
         </div>
