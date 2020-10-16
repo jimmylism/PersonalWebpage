@@ -101,18 +101,21 @@ a:hover {
 
 /* About */
 #about {
-    background-color: #1d2d50;
-    color: #FEFCFB;
+    /*background-color: #1d2d50;
+    color: #FEFCFB;*/
     padding-bottom: 3rem;
 }
 
 .aboutBody {
     display: flex;
     flex-direction: row;
+    text-align: center;
 }
 
-.aboutMe {
+.aboutText{
+    text-align: left;
     max-width: 40rem;
+    margin: 0 auto;
 }
 
 
@@ -123,11 +126,14 @@ a:hover {
     flex-direction: column;
 }
 
-
-
-
-/* Experience Cards */
 .experienceCard {
+    text-align: center;
+    padding-bottom: 1rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+.experienceDescription{
     text-align: left;
 }
 
@@ -141,8 +147,12 @@ a:hover {
     margin-bottom: 0.5rem;
 }
 
-.experienceContainer {
-
+.experienceDescription {
+    /*display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    margin: 0;
+    text-align: center;*/
 }
 
 

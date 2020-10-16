@@ -8,19 +8,19 @@ export default function Experience() {
             name: "Northwestern Mutual",
             title: "Software engineer",
             time: "Aug 2020 - Present",
-            description: "I do some software stuff"
+            description: ""
         },
         {
             name: "MD Logistics",
             title: "BI developer intern",
             time: "Jun 2020 - Aug 2020",
-            description: "I do some BI stuff"            
+            description: "Developed automated reporting tool to help executives with making business decisions. Automated weekly report generating process, slashing time spent on the process by over 90%."            
         },
         {
             name: "Bastian Solutions",
             title: "Software developer intern",
             time: "Jun 2019 - Aug 2019",
-            description: "I do some software stuff"            
+            description: "Developed back-end and front-end for a new documentation feature in a project-management software. Created sketches and mock-ups as a part of the design process."            
         },
     ]
 
@@ -29,19 +29,19 @@ export default function Experience() {
             name: "Indiana University Student Government",
             title: "Program Manager",
             time: "Aug 2020 - Present",
-            description: "I do some PM stuff"
+            description: "Lead a team of four software engineers to develop applications that are beneficial to IUSG and the general student body while motivating and mentoring the juniors on unfamiliar technologies and their careers."
         },
         {
             name: "Indiana University",
             title: "Research Assistant",
             time: "Sep 2019 - Dec 2019",
-            description: "I do some research stuff"            
+            description: "Created data visualizations for the research on publications and citations of various C.S. fields. Documented and cleaned code as well as writing workflows so that researchers can replicate visualization results."            
         },
         {
             name: "Asian American Association @ Indiana University",
             title: "Marketing director",
             time: "Feb 2019 - May 2020",
-            description: "I do some marketing stuff"            
+            description: "Fostered a stronger Asian American community at Indiana University, increasing attendance of monthly meetings by over 30%. Coordinated the annual Indiana Asian American Conference with over 100 participants."            
         },
     ]
 
