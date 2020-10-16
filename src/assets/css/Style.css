@@ -29,14 +29,14 @@ body {
     /* background-color: #1282A2; */
     background-color: #FEFCFB;
     color: #1d2d50;
-    padding-top: 1.5rem;
-    padding-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .brand {
     display: flex;
-    margin-left: 3rem;
-    margin-right: .75rem;
+    padding-left: 3rem;
+    padding-right: .75rem;
 }
 
 .logo {
@@ -72,7 +72,7 @@ a:hover {
 #intro {
     padding-top: 12rem;
     padding-bottom: 16rem;
-    display: flex;
+    display: flex;  
     justify-content: center;
     flex-direction: column;
 }
@@ -103,6 +103,7 @@ a:hover {
 #about {
     background-color: #1d2d50;
     color: #FEFCFB;
+    padding-bottom: 3rem;
 }
 
 .aboutBody {
@@ -110,15 +111,16 @@ a:hover {
     flex-direction: row;
 }
 
-.aboutText {
-    /* background-color: #0f4c75; */
-    padding: 3rem;
+.aboutMe {
+    max-width: 40rem;
 }
 
 
 /* Experience */
 #experience {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
@@ -126,10 +128,10 @@ a:hover {
 
 /* Experience Cards */
 .experienceCard {
-    flex: display;
+    text-align: left;
 }
 
-.experienceCard h2 {
+.experienceCard h3 {
     color: #1282A2;
     margin-bottom: 0.5rem;
 }
@@ -147,9 +149,18 @@ a:hover {
 
 /* Footer */
 #contact {
-    background-color: #1d2d50;
-    color: #FEFCFB;
     padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#contact h2 {
+    padding: 0;
+}
+
+#contact a {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 
@@ -187,7 +198,7 @@ a:hover {
 
   @media only screen and (max-width: 550px) {
     .brand {
-        margin-left: 1rem;
+        padding-left: 1.5rem;
     }
     
     .brand h2 {

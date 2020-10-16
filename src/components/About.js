@@ -5,7 +5,7 @@ import profilePicture from '../assets/img/logo.png'
 export default function About() {
     return (
         <div className="section" id="about">
-            <h1 className="sectionHeader">A little more about me</h1>
+            <h2 className="sectionHeader">A little more about me</h2>
             <div className="aboutbody">
                 <div className="aboutText">
                     <p className="aboutMe">My <b>drive</b> is creating an <b>impact</b> in the community around me. </p>

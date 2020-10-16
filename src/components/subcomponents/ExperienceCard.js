@@ -5,7 +5,7 @@ export default function ExperienceCard(props) {
     return (
         <div className="experienceCard">
             <div className="experienceDescription">
-                <h2>{props.name}</h2>
+                <h3>{props.name}</h3>
                 <p>{props.title} | {props.time} </p>
                 <p>{props.description}</p>
             </div>

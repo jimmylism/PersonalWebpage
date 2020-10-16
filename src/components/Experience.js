@@ -47,12 +47,12 @@ export default function Experience() {
 
     return (
         <div className="section" id="experience">
-            <h1 className="sectionHeader">Here's what I've been up to</h1>
+            <h2 className="sectionHeader">Here's what I've been up to</h2>
             <div className="experienceContainer">
                 {workData.map((data, key) => {return (
                     <ExperienceCard key={key} name={data.name} title={data.title} time={data.time} description={data.description} />)})}
             </div>
-            <h1 className="sectionHeader">Some of my leadership & volunteer experience</h1>
+            <h2 className="sectionHeader">Some of my leadership & volunteer experience</h2>
             <div className="leadershipContainer">
                 {leadershipData.map((data, key) => {return (
                     <ExperienceCard key={key} name={data.name} title={data.title} time={data.time} description={data.description} />)})}
