@@ -27,13 +27,13 @@ export default function Experience() {
     const leadershipData = [
         {
             name: "Indiana University Student Government",
-            title: "Program Manager",
+            title: "Program manager",
             time: "Aug 2020 - Present",
             description: "Lead a team of four software engineers to develop applications that are beneficial to IUSG and the general student body while motivating and mentoring the juniors on unfamiliar technologies and their careers."
         },
         {
             name: "Indiana University",
-            title: "Research Assistant",
+            title: "Research assistant",
             time: "Sep 2019 - Dec 2019",
             description: "Created data visualizations for the research on publications and citations of various C.S. fields. Documented and cleaned code as well as writing workflows so that researchers can replicate visualization results."            
         },
@@ -53,7 +53,7 @@ export default function Experience() {
                     <ExperienceCard key={key} name={data.name} title={data.title} time={data.time} description={data.description} />)})}
             </div>
             <h2 className="sectionHeader">Some of my leadership & volunteer experience</h2>
-            <div className="leadershipContainer">
+            <div className="experienceContainer">
                 {leadershipData.map((data, key) => {return (
                     <ExperienceCard key={key} name={data.name} title={data.title} time={data.time} description={data.description} />)})}
             </div>
