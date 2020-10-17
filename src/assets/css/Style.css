@@ -57,14 +57,24 @@ body {
     margin: 1rem;
 }
 
-a {
+.header a {
     color: #1d2d50;
     text-decoration: none;
     font-size: large;
 }
+
 a:hover {
     /* color: #1d2d50; */
     color: #1282A2;
+}
+
+a:visited {
+    color: #1d2d50;
+}
+
+.section a {
+    color: #1282A2;
+    text-decoration: none;
 }
 
 
@@ -143,12 +153,6 @@ a:hover {
 
 .experienceCard h3 {
     color: #1282A2;
-    margin: 0;
-}
-
-.experienceCard p {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
 }
 
 
