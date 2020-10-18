@@ -14,7 +14,7 @@ export default function About() {
             My <b>drive</b> is creating an <b>impact</b> in the community around me. I am constantly looking for opportunities to give back to the community and creating a difference for those who are less fortunate. Some of the ways that I try to make an impact are:
             <br></br>
             <br></br>
-            <li>Joining <a href="http://aaaiub.com/"><b>Asian American Association</b></a> as the <b>marketing director</b> to help foster a sense of Asian community in a state where Asian-Americans are traditionally under-represented</li>
+            <li>Joining <a href="https://aaaiub.com/"><b>Asian American Association</b></a> as the <b>marketing director</b> to help foster a sense of Asian community in a state where Asian-Americans are traditionally under-represented</li>
             <br></br>
             <li>Offering mentorship to those looking to computer science in their academics and careers</li>
             <br></br>
