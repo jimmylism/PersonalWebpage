@@ -20,7 +20,6 @@ export default function About() {
             <br></br>
             <li>Leading a team of four developers as a <b>program manager</b> for <a href="https://iustudentgovernment.indiana.edu/">Indiana University Student Government</a> to better assist the student body</li>
             </div>
-
         </div>
     )
 }
