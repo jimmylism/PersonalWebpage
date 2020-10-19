@@ -17,6 +17,12 @@ export default function Experience() {
             description: "Developed automated reporting tool to help executives with making business decisions. Automated weekly report generating process, slashing time spent on the process by over 90%."            
         },
         {
+            name: "Indiana University",
+            title: "Research assistant",
+            time: "Sep 2019 - Dec 2019",
+            description: "Created data visualizations for the research on publications and citations of various C.S. fields. Documented and cleaned code as well as writing workflows so that researchers can replicate visualization results."            
+        },
+        {
             name: "Bastian Solutions",
             title: "Software developer intern",
             time: "Jun 2019 - Aug 2019",
@@ -32,12 +38,6 @@ export default function Experience() {
             description: "Lead a team of four software engineers to develop applications that are beneficial to IUSG and the general student body while motivating and mentoring the juniors on unfamiliar technologies and their careers."
         },
         {
-            name: "Indiana University",
-            title: "Research assistant",
-            time: "Sep 2019 - Dec 2019",
-            description: "Created data visualizations for the research on publications and citations of various C.S. fields. Documented and cleaned code as well as writing workflows so that researchers can replicate visualization results."            
-        },
-        {
             name: "Asian American Association @ Indiana University",
             title: "Marketing director",
             time: "Feb 2019 - May 2020",
@@ -47,12 +47,12 @@ export default function Experience() {
 
     return (
         <div className="section" id="experience">
-            <h2 className="sectionHeader">Here's what I've been up to</h2>
+            <h2 className="sectionHeader">I previously worked for:</h2>
             <div className="experienceContainer">
                 {workData.map((data, key) => {return (
                     <ExperienceCard key={key} name={data.name} title={data.title} time={data.time} description={data.description} />)})}
             </div>
-            <h2 className="sectionHeader">Some of my leadership & volunteer experience</h2>
+            <h2 className="sectionHeader">I displayed leadership at:</h2>
             <div className="experienceContainer">
                 {leadershipData.map((data, key) => {return (
                     <ExperienceCard key={key} name={data.name} title={data.title} time={data.time} description={data.description} />)})}
