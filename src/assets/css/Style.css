@@ -122,6 +122,30 @@ a:hover {
     padding: 0 1rem;
 }
 
+.miniDescription {
+    margin-top: 0rem;
+}
+
+.orange {
+    color: #db6923;
+}
+
+.bittermelon {
+    color: #9aae07;
+}
+
+
+
+/* Impact */
+#impact {
+    /*background-color: #1d2d50;
+    color: #FEFCFB;*/
+    padding-bottom: 10rem;
+}
+
+#impact li {
+    margin: 0.75rem;
+}
 
 
 /* Experience */
@@ -136,7 +160,7 @@ a:hover {
     text-align: left;
     max-width: 50rem;
     margin: 0 auto;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .experienceDescription{

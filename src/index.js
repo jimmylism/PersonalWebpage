@@ -4,6 +4,7 @@ import './assets/css/Style.css';
 import Header from './components/Header.js';
 import Introduction from './components/Introduction.js';
 import About from './components/About.js';
+import Impact from './components/Impact.js'
 import Experience from './components/Experience.js';
 import Footer from './components/Footer.js';
 
@@ -12,10 +13,11 @@ const App = () => {
     <div>
         <Header></Header>
         <div className="body">
-            <Introduction></Introduction>
-            <About></About>
-            <Experience></Experience>
-            <Footer></Footer>
+            <Introduction/>
+            <About/>
+            <Impact/>
+            <Experience/>
+            <Footer/>
         </div>
     </div>
     )
