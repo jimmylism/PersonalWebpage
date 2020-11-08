@@ -14,7 +14,12 @@
 
 Feel free to fork or use this repo as template for your own personal website or for practicing! Please attribute source if you intend to do so! :)
 
-## Available Scripts
+
+
+
+
+
+## Default React Scripts
 
 In the project directory, you can run:
 
