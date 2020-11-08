@@ -8,14 +8,14 @@ export default function Experience() {
             name: "Northwestern Mutual",
             title: "Software engineer",
             time: "Aug 2020 - Present",
-            description: "",
-            link: "northwesternmutual.com",
+            description: "Implemented and maintained features for a React-based enterprise software, including its microservices. Wrote tests using Jest and React Testing Library to ensure code coverage.",
+            link: "https://northwesternmutual.com",
         },
         {
             name: "MD Logistics",
             title: "BI developer intern",
             time: "Jun 2020 - Aug 2020",
-            description: "Developed automated reporting tool to help executives with making business decisions. Automated weekly report generating process, slashing time spent on the process by over 90%.",
+            description: "Developed automated reporting tool with 10+ KPIs to help executives with making business decisions. Automated weekly report generating process, slashing time spent on the process by over 90%.",
             link: "https://www.mdlogistics.com/",
         },
         {

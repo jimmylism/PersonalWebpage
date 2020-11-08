@@ -12,6 +12,7 @@ export default function Header() {
             <div className="headerList">
                 <a className="headerLink" href="#about">About</a>
                 <a className="headerLink" href="#experience">Experience</a>
+                <a className="headerLink" href="https://drive.google.com/file/d/13L2oNb5_PnvELHFbKqFAwNhxpvspfLTh/view?usp=sharing">Resume</a>
                 <a className="headerLink" href="#contact">Contact</a>
             </div>
         </div>
