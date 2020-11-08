@@ -1,4 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img alt="Logo" src="https://github.com/jimmylism/homepage/blob/master/src/assets/img/logo.png?raw=true" width="100" />
+</div>
+<h1 align="center">
+  jimmhuang.info - v1
+</h1>
+<p align="center">
+  The first iteration of <a href="https://jimmyhuang.info" target="_blank">jimmyhuang.info</a> built with <a href="https://reactjs.org/" target="_blank">React</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a>
+</p>
+
+![demo](https://github.com/jimmylism/homepage/blob/master/src/assets/img/demo.png?raw=true)
+
+## Forking/using as template
+
+Feel free to fork or use this repo as template for your own personal website or for practicing! Please attribute source if you intend to do so! :)
 
 ## Available Scripts
 
