@@ -7,7 +7,7 @@ export default function Experience() {
         {
             name: "Northwestern Mutual",
             title: "Software engineer",
-            time: "Aug 2020 - Present",
+            time: "Aug 2020 - Jan 2021",
             description: "Implemented and maintained features for a React-based enterprise software, including its microservices. Wrote tests using Jest and React Testing Library to ensure code coverage.",
             link: "https://northwesternmutual.com",
         },
