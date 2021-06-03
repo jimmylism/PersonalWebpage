@@ -5,8 +5,15 @@ import '../assets/css/Style.css';
 export default function Experience() {
     const workData = [
         {
+            name: "HP",
+            title: "Full-stack software engineer",
+            time: "Jan 2021 - Now",
+            description: "Full-stack engineer on InstantInk team working on enrollment flow. ",
+            link: "https://instantink.hpconnected.com/.com",
+        },
+        {
             name: "Northwestern Mutual",
-            title: "Software engineer",
+            title: "Front-end software engineer",
             time: "Aug 2020 - Jan 2021",
             description: "Implemented and maintained features for a React-based enterprise software, including its microservices. Wrote tests using Jest and React Testing Library to ensure code coverage.",
             link: "https://northwesternmutual.com",
