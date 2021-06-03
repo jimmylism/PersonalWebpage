@@ -9,7 +9,7 @@ export default function Experience() {
             title: "Full-stack software engineer",
             time: "Jan 2021 - Now",
             description: "Full-stack engineer on InstantInk team working on enrollment flow. ",
-            link: "https://instantink.hpconnected.com/.com",
+            link: "https://instantink.hpconnected.com/",
         },
         {
             name: "Northwestern Mutual",
