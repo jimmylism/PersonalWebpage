@@ -5,10 +5,17 @@ import '../assets/css/Style.css';
 export default function Experience() {
     const workData = [
         {
-            name: "HP",
-            title: "Full-stack software engineer",
-            time: "Jan 2021 - Now",
-            description: "Full-stack engineer on InstantInk team working on enrollment flow. ",
+            name: "Lucid",
+            title: "Product manager",
+            time: "Jan 2022 - Now",
+            description: "Working to improve enterprise readiness in the areas of security and compliance.",
+            link: "https://lucid.co/",
+        },
+        {
+            name: "Hewlett Packard",
+            title: "Software engineer",
+            time: "Jan 2021 - Jan 2022",
+            description: "Full-stack engineer on InstantInk team working on enrollment flow.",
             link: "https://instantink.hpconnected.com/",
         },
         {
