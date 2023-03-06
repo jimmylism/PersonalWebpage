@@ -70,12 +70,12 @@ export default function Experience() {
             <h2 className="sectionHeader">Where I've worked:</h2>
             <div className="experienceContainer">
                 {workData.map((data, key) => {return (
-                    <ExperienceCard key={key} name={data.name} title={data.title} time={data.time} description={data.description} />)})}
+                    <ExperienceCard key={key} name={data.name} title={data.title} time={data.time} description={data.description} link={data.link}/>)})}
             </div>
             <h2 className="sectionHeader">I displayed leadership at:</h2>
             <div className="experienceContainer">
                 {leadershipData.map((data, key) => {return (
-                    <ExperienceCard key={key} name={data.name} title={data.title} time={data.time} description={data.description} />)})}
+                    <ExperienceCard key={key} name={data.name} title={data.title} time={data.time} description={data.description} link={data.link}/>)})}
             </div>
         </div>
     )
